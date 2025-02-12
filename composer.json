@@ -1,0 +1,20 @@
+{
+    "name": "shereefhabib/email-queue-server",
+    "require-dev": {
+        "predis/predis": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shereefhabib\\EmailQueueServer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shereef Habib",
+            "email": "sheryf.534@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
